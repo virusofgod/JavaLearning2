@@ -70,7 +70,7 @@ public class Main {
         }*/
 
         // if else
-        {
+      /*  {
             double max;
             double a;
             double b;
@@ -89,12 +89,29 @@ public class Main {
                 System.out.print("Первое число больше");
             } else if (b > a) {
                 System.out.print("Второе число больше");
-            } else {
-                System.out.println("Числа равны никто не больше");
-
-
             }
 
+        }*/
+        {
+            Scanner in = new Scanner(System.in);
+            in.useLocale(Locale.US);
+            int x1, x2;
+            x1 = in.nextInt();
+            if (x1 > 9 && x1 < 99) {
+                x2 = x1 % 10;
+                x1 = x1 / 10;
+                System.out.println(x1 + " ; " + x2);
+                if (x1 == x2) {
+                    System.out.println("В числе одинаковые цифры");
+                } else if (x2 > x1) {
+                    System.out.println("В числе вторая цифра больше первой");
+                } else if (x1 > x2) {
+                    System.out.println("В числе первая цифра больше второй");
+                }
+
+            } else {
+                System.out.println("Введено не двузначное число");
+            }
         }
-    }
+        }
 }

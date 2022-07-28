@@ -51,8 +51,11 @@ public class Main {
             System.out.println(max);
             }*/
 
-
-
+            //example 2
+           /* {
+                int a = -10;
+                System.out.println(a > 0 ? a * a : "Wrong");
+            }*/
 
         }
 

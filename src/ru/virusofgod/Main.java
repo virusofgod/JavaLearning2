@@ -24,5 +24,15 @@ public class Main {
             System.out.println("----------------------------");
             System.out.println(a);
         }*/
-    }
+
+        //boolean
+       /* {
+            boolean a = true;
+            boolean b = false;
+
+            int x = 5;
+            boolean b1 = x > 0;
+            boolean b2 = b1 && (x <= 20) || a;
+        }*/
+        }
 }

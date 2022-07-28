@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-      //logical operation
+      //logical operation example 1
         /* {
             Scanner in = new Scanner(System.in);
             if (in.nextInt() > 10) { // шпаргалка (== , > , <, >= , <= , && , || , != ,true , false).
@@ -37,27 +37,31 @@ public class Main {
 
 
         //ternary operation
-
-        {
-            /*            какое будет значение если условие
-             * <условие>? <значение если истина> :<значение если ложь>
-             */
-
-         //example 1
-            /*   {
+            //example 2.1
+            /* {
             int a = 0;
             int b = 20;
             int max = ( a > b? a : b ); //скобки не обязательны
             System.out.println(max);
-            }*/
+        }*/
 
-            //example 2
-           /* {
+            //example 2.2
+            /* {
                 int a = -10;
                 System.out.println(a > 0 ? a * a : "Wrong");
             }*/
 
-        }
+        // example 2.3
+      /*  {
+            Scanner in = new Scanner(System.in);
+            in.useLocale(Locale.US);
+            double x = in.nextDouble();
+            double y = in.nextDouble();
+            System.out.println(x<2 && y<x && (x*x)+(y*y)>4 && y>0?"yes" : "no");
+        }*/
 
-        }
+
+
+
+    }
 }

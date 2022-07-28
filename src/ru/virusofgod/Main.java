@@ -51,7 +51,7 @@ public class Main {
                 System.out.println(a > 0 ? a * a : "Wrong");
             }*/
 
-        // example 2.3
+        // example 2.3 -- задача 112165
       /*  {
             Scanner in = new Scanner(System.in);
             in.useLocale(Locale.US);
@@ -60,6 +60,14 @@ public class Main {
             System.out.println(x<2 && y<x && (x*x)+(y*y)>4 && y>0?"yes" : "no");
         }*/
 
+        // example 2.4 -- задача 112167
+     /*   {
+            Scanner in = new Scanner(System.in);
+            in.useLocale(Locale.US);
+            double x = in.nextDouble();
+            double y = in.nextDouble();
+            System.out.println((y<2-(x*x) && y>x && x<0) || (y<2-(x*x) && y>x && x>=0) ? "yes" : "no");
+        }*/
 
 
 

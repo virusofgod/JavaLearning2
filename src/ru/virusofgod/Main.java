@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-      //logical operation example 1
+        //logical operation example 1
         /* {
             Scanner in = new Scanner(System.in);
             if (in.nextInt() > 10) { // шпаргалка (== , > , <, >= , <= , && , || , != ,true , false).
@@ -37,7 +37,7 @@ public class Main {
 
 
         //ternary operation
-            //example 2.1
+        //example 2.1
             /* {
             int a = 0;
             int b = 20;
@@ -45,7 +45,7 @@ public class Main {
             System.out.println(max);
         }*/
 
-            //example 2.2
+        //example 2.2
             /* {
                 int a = -10;
                 System.out.println(a > 0 ? a * a : "Wrong");
@@ -61,7 +61,7 @@ public class Main {
         }*/
 
         // example 2.4 -- задача 112167
-     /*   {
+   /*   {
             Scanner in = new Scanner(System.in);
             in.useLocale(Locale.US);
             double x = in.nextDouble();
@@ -69,7 +69,32 @@ public class Main {
             System.out.println((y<2-(x*x) && y>x && x<0) || (y<2-(x*x) && y>x && x>=0) ? "yes" : "no");
         }*/
 
+        // if else
+        {
+            double max;
+            double a;
+            double b;
+            Scanner in = new Scanner(System.in);
+            in.useLocale(Locale.US);
+            System.out.println();
+            System.out.println();
+            System.out.println("Введите два числа и я покажу то которое больше");
+            System.out.println("--------------------------------------------------");
+            System.out.println("Введите первое число ");
+            a = in.nextDouble();
+            System.out.println("Введите второе число " );
+            b = in.nextDouble();
+            System.out.println("--------------------------------------------------");
+            if (a > b) {
+                System.out.print("Первое число больше");
+            } else if (b > a) {
+                System.out.print("Второе число больше");
+            } else {
+                System.out.println("Числа равны никто не больше");
 
 
+            }
+
+        }
     }
 }

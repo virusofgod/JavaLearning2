@@ -34,5 +34,27 @@ public class Main {
             boolean b1 = x > 0;
             boolean b2 = b1 && (x <= 20) || a;
         }*/
+
+
+        //ternary operation
+
+        {
+            /*            какое будет значение если условие
+             * <условие>? <значение если истина> :<значение если ложь>
+             */
+
+         //example 1
+            /*   {
+            int a = 0;
+            int b = 20;
+            int max = ( a > b? a : b ); //скобки не обязательны
+            System.out.println(max);
+            }*/
+
+
+
+
+        }
+
         }
 }
